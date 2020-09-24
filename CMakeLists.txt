@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # We have gtest/gmock as a Git submodule, add subdirectory to pick
 # this up we we can use it as a dependency
-add_subdirectory(lib/gtest)
+add_subdirectory(lib/googletest)
 
 add_executable(main src/main.cpp)
 #target_link_libraries(main)
